@@ -1,0 +1,12 @@
+[DEFAULT]
+BASEURL=http://multitouchvista.codeplex.com/
+[DOC_lqmad1]
+BASEURL=http://multitouchvista.codeplex.com/
+ORIGURL=
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,2
+[InternetShortcut]
+URL=http://multitouchvista.codeplex.com/
+IDList=
+IconFile=http://multitouchvista.codeplex.com/favicon.ico
+IconIndex=1

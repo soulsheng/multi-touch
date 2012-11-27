@@ -1,0 +1,15 @@
+首先，确保按照“配置步骤 一次性.txt”完成多点触控模拟环境的配置，确保连接第2个USB鼠标；
+
+
+第1步，运行“MultiTouchVista\1.Multitouch.Service.Console.exe”，将看到两个红点，模拟触控点；
+
+第2步，运行“MultiTouchVista\2.Multitouch.Driver.Console.exe”；
+
+第3布，运行“MultiTouchVista\3.Multitouch.Configuration.WPF.exe”；
+
+第4步，在弹出窗口，点击“Configure device”，弹出另外一个窗口，勾选“Block...”。鼠标消失，只留下代表触控点的2个红点，随鼠标移动而移动；
+
+至此，多点触控模拟环境运行成功！
+
+注意：退出模拟时，先去掉第4步的勾选，然后在2个控制台，按回车键退出；
+如果不去掉勾选或者直接关闭控制台，将导致相应服务没有退出，可能引发异常，比如鼠标无响应或者以后无法正常运行触控模拟。
